@@ -88,6 +88,34 @@ nav .nav-item ul li{
     margin-left: 30px;
 }
 
+nav .nav-item ul li span{
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+.bar1ro{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.bar3ro{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+/* nav .nav-item ul li i{
+    color: #fff;
+} */
+
 nav .nav-item ul li a{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
@@ -122,6 +150,44 @@ nav .nav-item ul li a:hover{
 .menufixed .nav-item ul li a{
     color: #000;
 }
+
+
+
+/* ==============================================
+             Sidebar CSS Part Start
+================================================= */
+.sidebar-big{
+    width: 400px;
+    height: 100vh;
+    background: #0e0a2d;
+    position: absolute;
+    top: 0;
+    left: -450px;
+    z-index: 999;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.sidebar-big .close{
+    width: 50px;
+    height: 50px;
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    opacity: 1;
+}
+
+.tintinatin{
+    left: 0;
+}
+
 
 
 

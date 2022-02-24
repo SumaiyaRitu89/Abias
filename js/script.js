@@ -11,6 +11,21 @@ $(window).scroll(function(){
 
 
 
+// ============================== Sidebar Part Js ==============================
+$(".sidebar").click(function(){
+  $(".sidebar-big").toggleClass("tintinatin")
+  $(".bar2").fadeToggle()
+  $(".bar1").toggleClass("bar1ro")
+  $(".bar3").toggleClass("bar3ro")
+})
+
+$(".close").click(function(){
+  $(".sidebar-big").removeClass("tintinatin")
+  $(".bar2").fadeIn()
+})
+
+
+
 // =================================== Counter Part Js ==========================
 
 $('.counter').counterUp({
